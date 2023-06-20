@@ -10,6 +10,7 @@ import {Project} from "./helpers/ProjectConfigurationHelper";
 import {loc} from "./helpers/LocalizationHelper";
 
 import Componentindex from "./components/index";
+import Component2532850a from "./components/admiration/_2532850a";
 import Component36a50834 from "./components/blog/categories/_36a50834";
 import Component75a0039b from "./components/blog/post/_75a0039b";
 import Component5b126702 from "./components/ci/_5b126702";
@@ -20,6 +21,9 @@ import Component407a8b19 from "./components/stackblend-studio-suite/_407a8b19";
 
 export const index = (req: Request, res: Response) => {
   new Componentindex(req, res, "home/index");
+}
+export const _2532850a = (req: Request, res: Response) => {
+  new Component2532850a(req, res, "home/admiration/_2532850a");
 }
 export const _36a50834 = (req: Request, res: Response) => {
   new Component36a50834(req, res, "home/blog/categories/_36a50834");

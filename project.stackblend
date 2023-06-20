@@ -18,6 +18,7 @@
   "backEndControllerBlobSHADict": {
     "223b199e": "bab1365b11acd45db734c2bb26f60041aa51b012#829529188",
     "24c47744": "bab1365b11acd45db734c2bb26f60041aa51b012#829529188",
+    "2532850a": "bab1365b11acd45db734c2bb26f60041aa51b012#829529188",
     "36a50834": "7813446194713494ea50a2b7b21d8d354afaae95#-890979740",
     "407a8b19": "bab1365b11acd45db734c2bb26f60041aa51b012#829529188",
     "5b126702": "bab1365b11acd45db734c2bb26f60041aa51b012#829529188",
@@ -154,7 +155,7 @@
 6a0e95bb      "state": "create"
 6a0e95bb    }
   },
-  "controllerBlobSHA": "b550bf3d5355ad2c5670931de97903dec50812d2#589043795",
+  "controllerBlobSHA": "6833826398729df2e98e007816a3b4f4232c6fda#958536948",
   "currentPersistingFiles": [
     "src/controllers/components/stackblend-policy-and-terms/_223b199e.ts",
     "src/controllers/components/livebook-policy-and-terms/_24c47744.ts",
@@ -164,6 +165,7 @@
     "src/controllers/components/blog/post/_75a0039b.ts",
     "src/controllers/components/livebook-dictionary/_a91cc9d3.ts",
     "src/controllers/components/index.ts",
+    "src/controllers/components/admiration/_2532850a.ts",
     "src/public/js/components/Project.Controls.FlowLayout_6a0e95bb.tsx",
     "src/public/js/components/Project.Controls.Rectangle_e200d06a.tsx",
     "views/home/stackblend-policy-and-terms/_223b199e.pug",
@@ -173,7 +175,8 @@
     "views/home/ci/_5b126702.pug",
     "views/home/blog/post/_75a0039b.pug",
     "views/home/livebook-dictionary/_a91cc9d3.pug",
-    "views/home/index.pug"
+    "views/home/index.pug",
+    "views/home/admiration/_2532850a.pug"
   ],
   "flows": {
     "default": [
@@ -1367,7 +1370,7 @@ e2a583d4          }
       }
     }
   },
-  "footerBlobSHA": "f3f2961c21320015ca8285252df90bc67a95d4f0#-1500041078",
+  "footerBlobSHA": "fb82cbb1ec33c503a223e810c9e99aca4bf7e4d1#709138403",
   "frontEndComponentsBlobSHADict": {
     "Project.Controls.FlowLayout_6a0e95bb": "920b5db871ca6974866813f8c449bd28dc70df83#1302417253",
     "Project.Controls.Rectangle_e200d06a": "86290eabc74204b32488c3f0305fd763cb3b2def#58822695"
@@ -1451,6 +1454,19 @@ e2a583d4          }
       {
         "description": null,
         "frequency": null,
+        "id": "2532850a",
+        "image": null,
+        "keywords": null,
+        "name": "Admiration",
+        "path": "/admiration",
+        "priority": null,
+        "sitemap": null,
+        "stashing": null,
+        "state": "update"
+      },
+      {
+        "description": null,
+        "frequency": null,
         "id": "36a50834",
         "image": null,
         "keywords": null,
@@ -1523,7 +1539,7 @@ e2a583d4          }
   "headerBlobSHA": "33348e1289a26559229aefbcd179104e134a37e2#-724646019",
   "popups": {},
   "properties": {},
-  "routeBlobSHA": "33eb168f9f4268fe41eabe657951829f2de816d7#-2055245204",
+  "routeBlobSHA": "43681aee2b4c904d880c00beb4589319e4ee1709#-1980688208",
   "services": {
     "default": [
       "<body",
@@ -3486,6 +3502,67 @@ e2a583d4          }
 24c47744      "sitemap": null,
 24c47744      "state": "update"
 24c47744    },
+2532850a    "2532850a": {
+2532850a      "accessories": {},
+2532850a      "automaticSchemata": {
+2532850a        "version": "1.1"
+2532850a      },
+2532850a      "body": [
+2532850a        "<body",
+2532850a        "    class=\"\">",
+2532850a        "<div",
+2532850a        "    class=\"internal-fsb-begin\"",
+2532850a        "    internal-fsb-guid=\"0\"",
+2532850a        "    internal-fsb-animation=\"\">",
+2532850a        "<div",
+2532850a        "    class=\"internal-fsb-allow-cursor internal-fsb-begin-layout internal-fsb-strict-layout\"",
+2532850a        "    internal-fsb-event-no-propagate=\"1\">",
+2532850a        "<div",
+2532850a        "    class=\"internal-fsb-allow-cursor internal-fsb-element internal-fsb-stretch internal-fsb-strict-layout\"",
+2532850a        "    internal-fsb-guid=\"370b7ed7\"",
+2532850a        "    internal-fsb-name=\"Admiration\"",
+2532850a        "    internal-fsb-event-no-propagate=\"1\"",
+2532850a        "    internal-fsb-class=\"FlowLayout\"",
+2532850a        "    style=\"-ms-flex-direction: row; -webkit-align-content: center; -webkit-flex-direction: row; align-content: center; flex-direction: row; height: 100vh; padding-left: 0px; padding-right: 0px; width: 100vw\">",
+2532850a        "<div",
+2532850a        "    class=\"internal-fsb-allow-cursor internal-fsb-element internal-fsb-strict-layout\"",
+2532850a        "    internal-fsb-guid=\"968da3c5\"",
+2532850a        "    internal-fsb-name=\"Middle\"",
+2532850a        "    internal-fsb-event-no-propagate=\"1\"",
+2532850a        "    internal-fsb-class=\"FlowLayout\"",
+2532850a        "    style=\"padding-left: 0px; padding-right: 0px;\">",
+2532850a        "<div",
+2532850a        "    contenteditable=\"true\"",
+2532850a        "    class=\"col-12 internal-fsb-element\"",
+2532850a        "    internal-fsb-guid=\"80c6acb8\"",
+2532850a        "    internal-fsb-name=\"To\"",
+2532850a        "    internal-fsb-event-no-propagate=\"1\"",
+2532850a        "    internal-fsb-class=\"TextElement\"",
+2532850a        "    style=\"font-style: italic; text-align: center\">To my beloved father and mother, CRS CLS.</div>",
+2532850a        "</div>",
+2532850a        "</div>",
+2532850a        "</div>",
+2532850a        "</div>",
+2532850a        "</body>"
+2532850a      ],
+2532850a      "description": null,
+2532850a      "extensions": {},
+2532850a      "frequency": null,
+2532850a      "head": {
+2532850a        "fonts": {}
+2532850a      },
+2532850a      "id": "2532850a",
+2532850a      "image": null,
+2532850a      "keywords": null,
+2532850a      "name": "Admiration",
+2532850a      "notations": {},
+2532850a      "path": "/admiration",
+2532850a      "priority": null,
+2532850a      "references": [],
+2532850a      "sitemap": null,
+2532850a      "stashing": null,
+2532850a      "state": "update"
+2532850a    },
 36a50834    "36a50834": {
 36a50834      "accessories": {},
 36a50834      "automaticSchemata": {
@@ -7655,6 +7732,7 @@ a91cc9d3    },
   "viewBlobSHADict": {
     "223b199e": "5129f4778463dbe56f156426f6f39fef6784a2bf#870006181",
     "24c47744": "0c0e681717ca393c8758696937fa7b5820556a98#-322841081",
+    "2532850a": "1178ce05b18933c66f4c4b3030831d63f1852c7f#1736215187",
     "36a50834": "830ade8e78ff2ad29bc8ce5cd7662de462d4970e#514695650",
     "407a8b19": "a66288766d43473978a84cbff58cc76896536457#78029428",
     "5b126702": "55535f237543eddc9bb4d6992ceccd086a0037f7#1168983689",

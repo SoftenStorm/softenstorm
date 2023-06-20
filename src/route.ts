@@ -8,6 +8,10 @@ const route = (app: any) => {
  app.post("/", homeController.index);
  app.put("/", homeController.index);
  app.delete("/", homeController.index);
+ app.get("/admiration", homeController._2532850a);
+ app.post("/admiration", homeController._2532850a);
+ app.put("/admiration", homeController._2532850a);
+ app.delete("/admiration", homeController._2532850a);
  app.get("/blog/categories/:category", homeController._36a50834);
  app.post("/blog/categories/:category", homeController._36a50834);
  app.put("/blog/categories/:category", homeController._36a50834);

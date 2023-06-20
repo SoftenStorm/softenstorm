@@ -1,0 +1,73 @@
+//- Auto[Generating:V1]--->
+//- PLEASE DO NOT MODIFY BECAUSE YOUR CHANGES MAY BE LOST.
+
+.
+  <!DOCTYPE html>
+html(lang=headers && headers.language || 'en')
+  head
+    meta(name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0")
+    title.
+      #{headers && headers.title || 'Admiration'}
+    meta(name="description" content=headers && headers.description || '')
+    meta(name="keywords" content=headers && headers.keywords || '')
+    meta(http-equiv="content-language" content=headers && headers.language || 'en')
+    meta(http-equiv="content-type" content=headers && headers.contentType || 'UTF-8')
+    meta(name="revisit-after" content=headers && headers.revisitAfter || '7 days')
+    meta(name="robots" content=headers && headers.robots || 'index, follow')
+    meta(property="og:title" content=headers && headers.title || 'Admiration')
+    meta(property="og:url" content=headers && headers.linkUrl || '/admiration')
+    meta(property="og:image" content=headers && headers.imageUrl || '')
+    meta(property="og:type" content=headers && headers.itemType || 'website')
+    meta(property="og:description" content=headers && headers.description || '')
+    meta(property="og:locale" content=headers && headers.contentLocale || 'en_US')
+    include ../_header.pug
+  body
+    
+    .internal-fsb-begin(internal-fsb-animation="", internal-fsb-guid="0")
+      .internal-fsb-begin-layout.internal-fsb-strict-layout
+        .internal-fsb-element.internal-fsb-stretch.internal-fsb-strict-layout(style={'-ms-flex-direction': 'row', '-webkit-align-content': 'center', '-webkit-flex-direction': 'row', 'align-content': 'center', 'flex-direction': 'row', 'height': '100vh', 'padding-left': '0px', 'padding-right': '0px', 'width': '100vw'}, internal-fsb-class="FlowLayout", internal-fsb-guid="370b7ed7")
+          .internal-fsb-element.internal-fsb-strict-layout(style={'padding-left': '0px', 'padding-right': '0px'}, internal-fsb-class="FlowLayout", internal-fsb-guid="968da3c5")
+            .col-12.internal-fsb-element(style={'font-style': 'italic', 'text-align': 'center'}, internal-fsb-guid="80c6acb8")
+              | To my beloved father and mother, CRS CLS.
+    script(type="text/javascript" src="/js/libraries/polyfills/polyfill.io.js")
+    script(type="text/javascript" src="/js/Embed.bundle.js")
+    script(type="text/javascript").
+      var Controller = /** @class */ (function () {
+          function Controller() {
+              this.dictionary = {};
+          }
+          Controller.prototype.register = function (guid, eventName, functionName, capturing, forward) {
+              if (!this.dictionary[guid])
+                  this.dictionary[guid] = {};
+              this.dictionary[guid][eventName] = [functionName, capturing, forward];
+          };
+          Controller.prototype.listen = function (guid) {
+              if (this.dictionary[guid]) {
+                  for (var key in this.dictionary[guid]) {
+                      if (this.dictionary[guid].hasOwnProperty(key)) {
+                          var eventName = key;
+                          var functionName = this.dictionary[guid][key][0];
+                          var capturing = !!this.dictionary[guid][key][1];
+                          var forward = this.dictionary[guid][key][2];
+                          var element = (!forward) ? this.getElementUsingGUID(guid) : this.getElementUsingGUID(guid).firstElementChild;
+                          element.addEventListener(eventName, this[functionName].bind(this), capturing);
+                      }
+                  }
+              }
+          };
+          Controller.prototype.getElementUsingGUID = function (guid) {
+              return document.querySelectorAll('[internal-fsb-guid="' + guid + '"]')[0];
+          };
+          return Controller;
+      }());
+      var controller = new Controller();
+      TestHelper.identify();
+      function ready(a) { "loading" != document.readyState ? a(new Event('ready')) : document.addEventListener ? document.addEventListener("DOMContentLoaded", a) : (document.onreadystatechange = function (e) { "complete" == document.readyState && a(e); }); }
+      ;
+      
+    script(type="text/javascript").
+      window.data = !{JSON.stringify(data)};
+    include ../_footer.pug
+
+//- <--- Auto[Generating:V1]
+//- PLEASE DO NOT MODIFY BECAUSE YOUR CHANGES MAY BE LOST.
