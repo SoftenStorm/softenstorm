@@ -3,7 +3,7 @@
     "module": "commonjs",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "target": "es5",
+    "target": "es2019",
     "jsx": "react",
     "noImplicitAny": false,
     "moduleResolution": "node",

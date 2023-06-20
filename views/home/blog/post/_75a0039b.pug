@@ -1,0 +1,148 @@
+//- Auto[Generating:V1]--->
+//- PLEASE DO NOT MODIFY BECAUSE YOUR CHANGES MAY BE LOST.
+
+.
+  <!DOCTYPE html>
+html(lang=headers && headers.language || 'en')
+  head
+    meta(name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0")
+    title.
+      #{headers && headers.title || 'Blog Article'}
+    meta(name="description" content=headers && headers.description || '')
+    meta(name="keywords" content=headers && headers.keywords || '')
+    meta(http-equiv="content-language" content=headers && headers.language || 'en')
+    meta(http-equiv="content-type" content=headers && headers.contentType || 'UTF-8')
+    meta(name="revisit-after" content=headers && headers.revisitAfter || '7 days')
+    meta(name="robots" content=headers && headers.robots || 'index, follow')
+    meta(property="og:title" content=headers && headers.title || 'Blog Article')
+    meta(property="og:url" content=headers && headers.linkUrl || '/blog/post/:path')
+    meta(property="og:image" content=headers && headers.imageUrl || '')
+    meta(property="og:type" content=headers && headers.itemType || 'website')
+    meta(property="og:description" content=headers && headers.description || '')
+    meta(property="og:locale" content=headers && headers.contentLocale || 'en_US')
+    include ../../_header.pug
+  body(style="font-family: Inter")
+    
+    .internal-fsb-begin(internal-fsb-animation="", internal-fsb-guid="0")
+      .internal-fsb-begin-layout.internal-fsb-strict-layout
+        span(internal-fsb-init-class="Project.Controls.FlowLayout_6a0e95bb" internal-fsb-init-forward="{'classes': 'col-12 offset-0', 'styles': {}}")
+        .internal-fsb-element(style={'padding-left': '15px', 'padding-right': '15px', 'width': '100%'}, internal-fsb-guid="d91a2dd8")
+          .internal-fsb-element.internal-fsb-strict-layout(style={'border-bottom-color': 'rgba(197, 197, 197, 1)', 'border-bottom-style': 'solid', 'border-bottom-width': '1px', 'border-left-color': 'rgba(197, 197, 197, 1)', 'border-left-style': 'solid', 'border-left-width': '1px', 'border-right-color': 'rgba(197, 197, 197, 1)', 'border-right-style': 'solid', 'border-right-width': '1px', 'border-top-color': 'rgba(197, 197, 197, 1)', 'border-top-style': 'solid', 'border-top-width': '1px', 'padding-left': '0px', 'padding-right': '0px'}, internal-fsb-class="FlowLayout", internal-fsb-guid="d970ec3d")
+            each data, i in DataManipulationHelper.getDataFromNotation("current", undefined, true, false)
+              .internal-fsb-element.internal-fsb-strict-layout(style={'padding-left': '0px', 'padding-right': '0px'}, data-fsb-index=i, internal-fsb-class="FlowLayout", internal-fsb-guid="a1d36b97")
+                .internal-fsb-element(style={'font-weight': '300', 'padding-bottom': '15px', 'padding-top': '15px', 'width': '100%'}, internal-fsb-guid="e045a75d")
+                  .internal-fsb-element(style={'font-size': '11px', 'padding-left': '15px', 'padding-right': '15px', 'width': '100%'}, internal-fsb-guid="a5057258")
+                    .internal-fsb-element(style={'display': 'inline-block', 'font-size': '11px'}, internal-fsb-guid="43aa50bc")
+                      | #{DataManipulationHelper.getDataFromNotation("current[" + i + "].author")}
+                    .internal-fsb-element(style={'display': 'inline-block', 'font-weight': 'bold', 'padding-left': '5px', 'padding-right': '5px', 'position': 'relative', 'top': '-3px'}, internal-fsb-guid="ca81a33e")
+                      | .
+                    .internal-fsb-element(style={'display': 'inline-block'}, internal-fsb-guid="cdb6deca")
+                      | #{DataManipulationHelper.getDataFromNotation("current[" + i + "].date")}
+                    .internal-fsb-element(style={'display': 'inline-block', 'font-weight': 'bold', 'padding-left': '5px', 'padding-right': '5px', 'position': 'relative', 'top': '-3px'}, internal-fsb-guid="832de958")
+                      | .
+                    .internal-fsb-element(style={'display': 'inline-block'}, internal-fsb-guid="8dd745e7")
+                      | #{DataManipulationHelper.getDataFromNotation("current[" + i + "].length")}
+                    .internal-fsb-element(style={'display': 'inline-block'}, internal-fsb-guid="0eae1b67")
+                      | &nbsp;min
+                  .col-12.internal-fsb-element(style={'font-size': '24px', 'font-weight': '400', 'line-height': '1.25em', 'margin-bottom': '15px', 'margin-top': '30px'}, internal-fsb-guid="023b54d7")
+                    | #{DataManipulationHelper.getDataFromNotation("current[" + i + "].title")}
+                  .col-12.internal-fsb-element(style={'font-size': '14px', 'line-height': '1.25em'}, internal-fsb-guid="49a586b4")
+                    | !{DataManipulationHelper.getDataFromNotation("current.body")}
+                  span(internal-fsb-init-class="Project.Controls.Rectangle_e200d06a")
+                  .internal-fsb-element(style={'padding-left': '15px', 'padding-right': '15px', 'padding-top': '15px'}, internal-fsb-guid="d9a5e124")
+                    .internal-fsb-element(style={'-ms-flex-direction': 'row', '-webkit-flex-direction': 'row', 'border-top-color': 'rgba(197, 197, 197, 1)', 'border-top-style': 'solid', 'border-top-width': '1px', 'display': 'flex', 'flex-direction': 'row', 'font-size': '11px', 'padding-left': '0px', 'padding-right': '0px', 'padding-top': '15px', 'width': '100%'}, internal-fsb-guid="d9a12889")
+                      .internal-fsb-element(style={'-webkit-align-items': 'center', '-webkit-flex-basis': '0px', '-webkit-flex-grow': '1', 'align-items': 'center', 'display': 'flex', 'flex-basis': '0px', 'flex-grow': '1', 'padding-left': '0px', 'padding-right': '0px'}, internal-fsb-guid="7ea669c1")
+                        .internal-fsb-element(style={'display': 'inline-block'}, internal-fsb-guid="7a2a4a9b")
+                          | #{DataManipulationHelper.getDataFromNotation("current[" + i + "].view")}
+                        .internal-fsb-element(style={'display': 'inline-block', 'margin-right': '15px'}, internal-fsb-guid="c1864e90")
+                          | &nbsp;views
+                        each data, j in DataManipulationHelper.getDataFromNotation("current[" + i + "].comment", undefined, true, false)
+                          .internal-fsb-element(style={'display': 'inline-block'}, data-fsb-index=j, internal-fsb-guid="0569625a")
+                            | #{DataManipulationHelper.getDataFromNotation("current[" + i + "].comment[" + j + "]")}
+                        .internal-fsb-element(style={'display': 'inline-block'}, internal-fsb-guid="0c6e0e43")
+                          | &nbsp;comments
+                      .internal-fsb-element(style={'-webkit-align-items': 'center', '-webkit-flex-basis': '0px', '-webkit-flex-grow': '1', '-webkit-justify-content': 'right', 'align-items': 'center', 'display': 'flex', 'flex-basis': '0px', 'flex-grow': '1', 'justify-content': 'right', 'padding-left': '0px', 'padding-right': '0px', 'text-align': 'right'}, internal-fsb-guid="2044e00a")
+                        each data, j in DataManipulationHelper.getDataFromNotation("current[" + i + "].category", undefined, true, false)
+                          .internal-fsb-element(style={'padding-left': '15px', 'padding-right': '0px'}, data-fsb-index=j, internal-fsb-guid="76a43243")
+                            a.internal-fsb-element(style={'-moz-text-decoration-line': 'none', '-webkit-text-decoration-line': 'none', 'color': 'rgba(33, 33, 33, 1)', 'padding-left': '0px', 'padding-right': '0px', 'text-decoration-line': 'none'}, href=DataManipulationHelper.getDataFromNotation("current[" + i + "].category[" + j + "].link"), internal-fsb-guid="d6e195be")
+                              .internal-fsb-element(internal-fsb-guid="d6e195be-text")
+                                | #{DataManipulationHelper.getDataFromNotation("current[" + i + "].category[" + j + "].name")}
+        .col-12.internal-fsb-element(style={'font-size': '16px', 'font-weight': '300', 'margin-top': '25px'}, internal-fsb-guid="eac8e7c3")
+          | Recent Posts
+        .internal-fsb-element.internal-fsb-strict-layout(style={'padding-left': '15px', 'padding-right': '0px', 'width': '100%'}, internal-fsb-class="FlowLayout", internal-fsb-guid="82ae1889")
+          each data, i in DataManipulationHelper.getDataFromNotation("blog", undefined, true, false)
+            .col-12.col-lg-3.col-md-4.col-sm-6.col-xl-2.internal-fsb-element(style={'padding-left': '0px', 'padding-right': '0px', 'width': '100%'}, data-fsb-index=i, internal-fsb-guid="30cd18ec")
+              a.internal-fsb-element(style={'-moz-text-decoration-line': 'none', '-webkit-text-decoration-line': 'none', 'color': 'rgba(33, 33, 33, 1)', 'text-decoration-line': 'none'}, href=DataManipulationHelper.getDataFromNotation("blog[" + i + "].link"), internal-fsb-guid="85b82ecb")
+                .internal-fsb-element.internal-fsb-strict-layout(style={'border-bottom-color': 'rgba(197, 197, 197, 1)', 'border-left-color': 'rgba(197, 197, 197, 1)', 'border-right-color': 'rgba(197, 197, 197, 1)', 'border-top-color': 'rgba(197, 197, 197, 1)', 'margin-top': '15px', 'padding-left': '0px', 'padding-right': '15px'}, internal-fsb-class="FlowLayout", internal-fsb-guid="aa944a5b")
+                  .internal-fsb-element.internal-fsb-strict-layout(style={'border-bottom-color': 'rgba(197, 197, 197, 1)', 'border-bottom-style': 'solid', 'border-bottom-width': '1px', 'border-left-color': 'rgba(197, 197, 197, 1)', 'border-left-style': 'solid', 'border-left-width': '1px', 'border-right-color': 'rgba(197, 197, 197, 1)', 'border-right-style': 'solid', 'border-right-width': '1px', 'border-top-color': 'rgba(197, 197, 197, 1)', 'border-top-style': 'solid', 'border-top-width': '1px', 'padding-left': '0px', 'padding-right': '0px'}, internal-fsb-class="FlowLayout", internal-fsb-guid="a8142e38")
+                    .col-12.internal-fsb-element(style={'-ms-overflow-x': 'hidden', '-ms-overflow-y': 'hidden', 'background': 'rgba(252, 252, 252, 1)', 'border-bottom-color': 'rgba(197, 197, 197, 0.25)', 'border-bottom-style': 'solid', 'border-bottom-width': '1px', 'max-height': '200px', 'min-height': '125px', 'overflow-x': 'hidden', 'overflow-y': 'hidden', 'padding-left': '0px', 'padding-right': '0px', 'position': 'relative', 'width': '100%'}, internal-fsb-guid="acd3334a")
+                      .col-12.internal-fsb-element(style={padding: '0px'}, internal-fsb-forward="1", internal-fsb-guid="647aa111")
+                        img(style={'display': 'block', 'left': '0px', 'padding': '0px', 'position': 'absolute', 'ratio': '520:391', 'right': '0px', 'top': '0px', 'width': '100%'}, src=DataManipulationHelper.getDataFromNotation("blog[" + i + "].image"), internal-fsb-ratio-fit="true")
+                        img(style={'display': 'none'}, src=DataManipulationHelper.getDataFromNotation("blog[" + i + "].image"), internal-fsb-ratio-expand="true")
+                    .col-12.internal-fsb-element(style={'font-weight': '300', 'padding-bottom': '15px', 'padding-left': '0px', 'padding-right': '0px', 'padding-top': '15px', 'width': '100%'}, internal-fsb-guid="753618b1")
+                      .col-12.internal-fsb-element(style={'-ms-overflow-x': 'hidden', '-ms-overflow-y': 'hidden', 'font-size': '18px', 'font-weight': '300', 'height': '46px', 'line-height': '1.25em', 'margin-top': '5px', 'overflow-x': 'hidden', 'overflow-y': 'hidden'}, internal-fsb-guid="a0c0db55")
+                        | #{DataManipulationHelper.getDataFromNotation("blog[" + i + "].title")}
+                      .internal-fsb-element(style={'padding-left': '15px', 'padding-right': '15px', 'padding-top': '30px'}, internal-fsb-guid="cb8e4749")
+                        .internal-fsb-element(style={'border-top-color': 'rgba(197, 197, 197, 1)', 'border-top-style': 'solid', 'border-top-width': '1px', 'font-size': '11px', 'padding-left': '0px', 'padding-right': '0px', 'padding-top': '15px', 'width': '100%'}, internal-fsb-guid="5491ec24")
+                          .internal-fsb-element(style={'display': 'inline-block'}, internal-fsb-guid="885a0997")
+                            | #{DataManipulationHelper.getDataFromNotation("blog[" + i + "].view")}
+                          .internal-fsb-element(style={'display': 'inline-block', 'margin-right': '15px'}, internal-fsb-guid="b0cc600e")
+                            | &nbsp;views
+                          .internal-fsb-element(style={'display': 'inline-block'}, internal-fsb-guid="6a15ceb5")
+                            | #{DataManipulationHelper.getDataFromNotation("blog[" + i + "].comment")}
+                          .internal-fsb-element(style={'display': 'inline-block'}, internal-fsb-guid="55731353")
+                            | &nbsp;comments
+        .internal-fsb-element.internal-fsb-strict-layout(style={'padding-bottom': '30px', 'padding-top': '30px'}, internal-fsb-class="FlowLayout", internal-fsb-guid="2ac6aa5e")
+          .col-12.internal-fsb-element(style={'font-size': '13px', 'font-weight': '300', 'text-align': 'center'}, internal-fsb-guid="48a34d3b")
+            | ©2020-2023 by SoftenStorm Foundation
+          a.internal-fsb-element(style={'-moz-text-decoration-line': 'none', '-webkit-text-decoration-line': 'none', 'color': 'rgba(33, 33, 33, 1)', 'font-size': '13px', 'font-weight': '300', 'text-align': 'center', 'text-decoration-line': 'none', 'width': '100vw'}, href="https://www.stackblend.org", internal-fsb-guid="be0be088")
+            .internal-fsb-element(internal-fsb-guid="c9da26ce")
+              | Designed in StackBlend Studio
+        .internal-fsb-element.internal-fsb-strict-layout(style={'display': 'none', 'padding-left': '0px', 'padding-right': '0px'}, internal-fsb-class="FlowLayout", internal-fsb-guid="e094d4b6")
+          .col-12.internal-fsb-element(internal-fsb-guid="42c2c089")
+            | Comment
+          .col-12.internal-fsb-element(style={padding: '0px'}, internal-fsb-forward="1", internal-fsb-guid="7005d090")
+            textarea(style={'display': 'block', 'width': '100%'}, type="text")
+    script(type="text/javascript" src="/js/libraries/polyfills/polyfill.io.js")
+    script(type="text/javascript" src="/js/Embed.bundle.js")
+    script(type="text/javascript").
+      var Controller = /** @class */ (function () {
+          function Controller() {
+              this.dictionary = {};
+          }
+          Controller.prototype.register = function (guid, eventName, functionName, capturing, forward) {
+              if (!this.dictionary[guid])
+                  this.dictionary[guid] = {};
+              this.dictionary[guid][eventName] = [functionName, capturing, forward];
+          };
+          Controller.prototype.listen = function (guid) {
+              if (this.dictionary[guid]) {
+                  for (var key in this.dictionary[guid]) {
+                      if (this.dictionary[guid].hasOwnProperty(key)) {
+                          var eventName = key;
+                          var functionName = this.dictionary[guid][key][0];
+                          var capturing = !!this.dictionary[guid][key][1];
+                          var forward = this.dictionary[guid][key][2];
+                          var element = (!forward) ? this.getElementUsingGUID(guid) : this.getElementUsingGUID(guid).firstElementChild;
+                          element.addEventListener(eventName, this[functionName].bind(this), capturing);
+                      }
+                  }
+              }
+          };
+          Controller.prototype.getElementUsingGUID = function (guid) {
+              return document.querySelectorAll('[internal-fsb-guid="' + guid + '"]')[0];
+          };
+          return Controller;
+      }());
+      var controller = new Controller();
+      TestHelper.identify();
+      function ready(a) { "loading" != document.readyState ? a(new Event('ready')) : document.addEventListener ? document.addEventListener("DOMContentLoaded", a) : (document.onreadystatechange = function (e) { "complete" == document.readyState && a(e); }); }
+      ;
+      
+    <link internal-fsb-link="true" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" class="internal-fsb-accessory internal-fsb-font">
+    script(type="text/javascript").
+      window.data = !{JSON.stringify(data)};
+    include ../../_footer.pug
+
+//- <--- Auto[Generating:V1]
+//- PLEASE DO NOT MODIFY BECAUSE YOUR CHANGES MAY BE LOST.

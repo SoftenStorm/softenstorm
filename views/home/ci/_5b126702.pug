@@ -1,0 +1,77 @@
+//- Auto[Generating:V1]--->
+//- PLEASE DO NOT MODIFY BECAUSE YOUR CHANGES MAY BE LOST.
+
+.
+  <!DOCTYPE html>
+html(lang=headers && headers.language || 'en')
+  head
+    meta(name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0")
+    title.
+      #{headers && headers.title || '[internal] CI'}
+    meta(name="description" content=headers && headers.description || '')
+    meta(name="keywords" content=headers && headers.keywords || '')
+    meta(http-equiv="content-language" content=headers && headers.language || 'en')
+    meta(http-equiv="content-type" content=headers && headers.contentType || 'UTF-8')
+    meta(name="revisit-after" content=headers && headers.revisitAfter || '7 days')
+    meta(name="robots" content=headers && headers.robots || 'index, follow')
+    meta(property="og:title" content=headers && headers.title || '[internal] CI')
+    meta(property="og:url" content=headers && headers.linkUrl || '/ci')
+    meta(property="og:image" content=headers && headers.imageUrl || '')
+    meta(property="og:type" content=headers && headers.itemType || 'website')
+    meta(property="og:description" content=headers && headers.description || '')
+    meta(property="og:locale" content=headers && headers.contentLocale || 'en_US')
+    include ../_header.pug
+  body(style="font-family: Inter")
+    
+    .internal-fsb-begin(internal-fsb-animation="", internal-fsb-guid="0")
+      .internal-fsb-begin-layout.internal-fsb-strict-layout
+        span(internal-fsb-init-class="Project.Controls.FlowLayout_6a0e95bb" internal-fsb-init-forward="{'classes': 'col-12 offset-0', 'styles': {}}")
+        button.-fsb-self-45242510.btn.btn-md.col-6.internal-fsb-element.offset-3(type="button", internal-fsb-guid="45242510")
+          .internal-fsb-element(internal-fsb-guid="45242510-text")
+            | StackBlend – Free Full-Stack Development Studio
+        button.-fsb-preset-45242510.-fsb-self-2d8e4cab.col-8.internal-fsb-element.offset-2(type="button", internal-fsb-guid="2d8e4cab")
+          .internal-fsb-element(internal-fsb-guid="2d8e4cab-text")
+            | Open StackBlend
+    script(type="text/javascript" src="/js/libraries/polyfills/polyfill.io.js")
+    script(type="text/javascript" src="/js/Embed.bundle.js")
+    script(type="text/javascript").
+      var Controller = /** @class */ (function () {
+          function Controller() {
+              this.dictionary = {};
+          }
+          Controller.prototype.register = function (guid, eventName, functionName, capturing, forward) {
+              if (!this.dictionary[guid])
+                  this.dictionary[guid] = {};
+              this.dictionary[guid][eventName] = [functionName, capturing, forward];
+          };
+          Controller.prototype.listen = function (guid) {
+              if (this.dictionary[guid]) {
+                  for (var key in this.dictionary[guid]) {
+                      if (this.dictionary[guid].hasOwnProperty(key)) {
+                          var eventName = key;
+                          var functionName = this.dictionary[guid][key][0];
+                          var capturing = !!this.dictionary[guid][key][1];
+                          var forward = this.dictionary[guid][key][2];
+                          var element = (!forward) ? this.getElementUsingGUID(guid) : this.getElementUsingGUID(guid).firstElementChild;
+                          element.addEventListener(eventName, this[functionName].bind(this), capturing);
+                      }
+                  }
+              }
+          };
+          Controller.prototype.getElementUsingGUID = function (guid) {
+              return document.querySelectorAll('[internal-fsb-guid="' + guid + '"]')[0];
+          };
+          return Controller;
+      }());
+      var controller = new Controller();
+      TestHelper.identify();
+      function ready(a) { "loading" != document.readyState ? a(new Event('ready')) : document.addEventListener ? document.addEventListener("DOMContentLoaded", a) : (document.onreadystatechange = function (e) { "complete" == document.readyState && a(e); }); }
+      ;
+      
+    <link internal-fsb-link="true" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" class="internal-fsb-accessory internal-fsb-font">
+    script(type="text/javascript").
+      window.data = !{JSON.stringify(data)};
+    include ../_footer.pug
+
+//- <--- Auto[Generating:V1]
+//- PLEASE DO NOT MODIFY BECAUSE YOUR CHANGES MAY BE LOST.
