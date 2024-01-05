@@ -181,10 +181,7 @@ class FlowLayout_6a0e95bb extends Base {
                 | LiveBook Dictionary
             a.-fsb-preset-7e3024a9.internal-fsb-element(style={'FsbInheritedPresets': '7e3024a9'}, href="/stackblend-studio-suite", internal-fsb-guid="68812c50")
               .internal-fsb-element(internal-fsb-guid="10a10128")
-                | StackBlend Studio Suite
-            a.-fsb-preset-7e3024a9.internal-fsb-element(style={'FsbInheritedPresets': '7e3024a9'}, href="https://www.matchflutter.com", internal-fsb-guid="a2a98de0")
-              .internal-fsb-element(internal-fsb-guid="366830d4")
-                | Workplace Ethics
+                | StackBlend Studio
             a.-fsb-preset-7e3024a9.internal-fsb-element(style={'FsbInheritedPresets': '7e3024a9'}, href="/blog/categories/all", internal-fsb-guid="995989e3")
               .internal-fsb-element(internal-fsb-guid="3446e432")
                 | Blog
